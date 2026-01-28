@@ -49,23 +49,23 @@ GAMEPADS = {
     "34": {"name": "P30 Modkit", "type": 24},
     "35": {"name": "Pro 2", "type": 33},
     "36": {"name": "Pro 3", "type": 86},
-    "37": {"name": "Pro 3 Adapter", "type": 87},
+    "37": {"name": "Pro 3 er", "type": 87},
     "38": {"name": "Pro2 Wired", "type": 37},
     "39": {"name": "Pro2 Wired for Xbox", "type": 36},
     "40": {"name": "Pro2 Wired for Xbox", "type": 63},
     "41": {"name": "Retro 87 Keyboard X", "type": 80},
-    "42": {"name": "Retro 87 Keyboard X Adapter", "type": 81},
+    "42": {"name": "Retro 87 Keyboard X er", "type": 81},
     "43": {"name": "Retro 87 Keyboard X UK", "type": 106},
-    "44": {"name": "Retro 87 Keyboard X UK Adapter", "type": 107},
+    "44": {"name": "Retro 87 Keyboard X UK er", "type": 107},
     "45": {"name": "Retro Keyboard", "type": 61},
     "46": {"name": "Retro Keyboard 108", "type": 82},
-    "47": {"name": "Retro Keyboard 108 Adapter", "type": 83},
+    "47": {"name": "Retro Keyboard 108 er", "type": 83},
     "48": {"name": "Retro Keyboard Receiver", "type": 62},
     "49": {"name": "Retro Keyboard UK", "type": 88},
     "50": {"name": "Retro Mouse", "type": 84},
-    "51": {"name": "Retro Mouse Adapter", "type": 85},
+    "51": {"name": "Retro Mouse er", "type": 85},
     "52": {"name": "Retro Numpad", "type": 73},
-    "53": {"name": "Retro Numpad Adapter", "type": 74},
+    "53": {"name": "Retro Numpad er", "type": 74},
     "54": {"name": "Retro Receiver for Classic", "type": 6},
     "55": {"name": "Retro Receiver for MD/Genesis", "type": 22},
     "56": {"name": "Retro Receiver for NES/SFC", "type": 7},
@@ -78,30 +78,30 @@ GAMEPADS = {
     "63": {"name": "SN30+SF30", "type": 3},
     "64": {"name": "SN30+SF30_V4.1", "type": 3},
     "65": {"name": "SN30pro+SF30pro", "type": 9},
-    "66": {"name": "Saturn Adapter", "type": 99},
-    "67": {"name": "USB Adapter", "type": 8},
-    "68": {"name": "USB Adapter 2", "type": 39},
-    "69": {"name": "USB Adapter for PS classic", "type": 21},
+    "66": {"name": "Saturn er", "type": 99},
+    "67": {"name": "USB er", "type": 8},
+    "68": {"name": "USB er 2", "type": 39},
+    "69": {"name": "USB er for PS classic", "type": 21},
     "70": {"name": "USB Apdater", "type": 8},
     "71": {"name": "Ultimate", "type": 41},
     "72": {"name": "Ultimate 2", "type": 97},
     "73": {"name": "Ultimate 2", "type": 108},
-    "74": {"name": "Ultimate 2 Adapter", "type": 98},
+    "74": {"name": "Ultimate 2 er", "type": 98},
     "75": {"name": "Ultimate 2 wireless", "type": 94},
-    "76": {"name": "Ultimate 2 wireless Adapter", "type": 95},
+    "76": {"name": "Ultimate 2 wireless er", "type": 95},
     "77": {"name": "Ultimate 2.4g", "type": 43},
-    "78": {"name": "Ultimate 2.4g Adapter", "type": 44},
+    "78": {"name": "Ultimate 2.4g er", "type": 44},
     "79": {"name": "Ultimate 2C", "type": 75},
-    "80": {"name": "Ultimate 2C Adapter", "type": 76},
+    "80": {"name": "Ultimate 2C er", "type": 76},
     "81": {"name": "Ultimate 2C Wired", "type": 77},
     "82": {"name": "Ultimate 3M Receiver", "type": 65},
     "83": {"name": "Ultimate 3M for Rare", "type": 104},
-    "84": {"name": "Ultimate Adapter", "type": 42},
+    "84": {"name": "Ultimate er", "type": 42},
     "85": {"name": "Ultimate C 2.4g", "type": 48},
-    "86": {"name": "Ultimate C 2.4g Adapter", "type": 49},
+    "86": {"name": "Ultimate C 2.4g er", "type": 49},
     "87": {"name": "Ultimate C Bluetooth", "type": 66},
     "88": {"name": "Ultimate C N64 2.4g", "type": 71},
-    "89": {"name": "Ultimate C N64 2.4g Adapter", "type": 72},
+    "89": {"name": "Ultimate C N64 2.4g er", "type": 72},
     "90": {"name": "Ultimate C Wired", "type": 50},
     "91": {"name": "Ultimate C Wired for Xbox", "type": 70},
     "92": {"name": "Ultimate MG", "type": 100},
@@ -328,10 +328,13 @@ def print_instructions():
     print("\n" + "=" * 60)
     print("  INSTRUCTIONS")
     print("=" * 60)
-    print("\n1. Put your gamepad in bootloader mode (if it is an adapter simply connect it and skip steps 2 and 3):")
+    print("\n1. Put your gamepad/adapter in bootloader mode:")
+    print(" - For Gamepads")
     print("   - Hold down L1 + R1 + START for 3 seconds")
     print("   - A status LED should blink RED")
-    print("\n2. Connect the gamepad to your computer via USB cable")
+    print(" - For Adapters")
+    print("   - Hold down the pairing button and do not let go until you connect it to the PC")
+    print("\n2. Connect the gamepad/adapter to your computer via USB cable")
     print("\n3. Press Enter when ready...")
     print("=" * 60 + "\n")
     input()
