@@ -52,7 +52,7 @@ pip3 install requests
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/8bitdo_update.git
+git clone https://github.com/franfermon/8bitdo_update.git
 cd 8bitdo_update
 ```
 
