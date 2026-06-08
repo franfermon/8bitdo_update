@@ -1,3 +1,11 @@
+# UPDATE ON 8BITDO SUPPORT
+
+Hi! in May 2026 8bitdo finally launched an official way to update their devices through Linux https://web.8bitdo.com
+
+Keeping this in mind I'd urge you to try the official way first before using this script, that I will not maintain much from now on.
+
+It's been a fun ride and thanks to all that contributed and starred this!
+
 # 8BitDo Firmware Updater
 
 A Python tool to automatically download and flash firmware updates for 8BitDo gamepads on Linux, without requiring the official Upgrade Tool.
